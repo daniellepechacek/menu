@@ -1,0 +1,144 @@
+h1,h2 {
+    text-align: center;
+    background-color: brown;
+    
+}
+
+h1,h2{
+    font-family: Impact, serif;
+}
+
+body {
+background-color: brown;
+background-image: url("pierogi2.jpg");
+font-family: sans-serif;
+padding: 20px;
+}
+
+
+.menu { 
+    width: 80%;  /*Step 24 page 20-look at step 60 on page 35. The itallic doesn't work*/
+    background-color: burlywood;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px;
+    max-width: 500px;
+}
+
+
+img{
+    display: block;
+    margin-top: -25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.established {
+    font-style: italic;
+    text-align: center;
+} 
+
+.flavor {
+    text-align: left;
+    width: 75%;
+    display: inline-block;
+}
+
+.price {
+    display: inline-block;
+    text-align: right;
+    width: 5%;
+    font-size: 18px;
+}
+
+.item p{
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    
+     
+}
+
+.flavor, .desert{
+    text-align: left;
+    width: 75%;
+}
+
+.price, .flavo {
+    display: inline-block;
+    width: 75%;
+    
+}
+
+h1{
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom:15px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+hr{
+    /*The default properties of an hr element will make it appear as a thin light grey line. You can change the height of the line by specifying a value for the height property.
+    Notice how the thickness of the line looks bigger? The default value of a property named border-width is 1px for all edges of hr elements. By changing the border to the same color as the background, the total height of the line is 5px (3px plus the top and bottom border width of 1px).
+Change the height property of the hr to be 2px, so the total height of it becomes 4px.
+
+    */
+    height:2px;
+    background-color: brown;
+    border-color: brown;
+    
+}
+
+.bottom-line{
+    margin-top: 25px;
+}
+
+/*FOOTER*/
+
+footer {
+    font-size: 14px;
+}
+
+a {
+    color:black;
+}
+
+a:visited { 
+    color: black;
+ }
+
+
+ a:hover { 
+    color: brown; 
+}
+
+ a:active {
+    color:brown;
+ }
+
+.address{
+    margin-bottom: 5px;
+}
+
+
+ /*You change properties of a link when the mouse hovers over them by using a pseudo-selector that looks like a:hover { propertyName: propertyValue; }.*\
+
+ You change properties of a link when the link is actually being clicked by using a pseudo-selector that looks like a:active { propertyName: propertyValue; }.
+
+Step 86-Now the top spacing looks good. The space below the address at the bottom of the menu is a little bigger than the space at the top of the menu and the h1 element.
+To decrease the default margin space below the address p element, create a class selector named address and use the value 5px for the margin-bottom property.
+
+
+/*Step 27 page-20-center #menu horiontally by settiing margin-left and margin-right properties to auto.*\
+
+/*It is more common to use a different selector to style your elements.
+A class selector is defined by a name with a dot directly in front of it, like this: 
+
+To apply the class's styling to the div element, remove the id attribute and add a class attribute to the div element's opening tag. Make sure to set the class value to menu.
+
+step-86
+*/
